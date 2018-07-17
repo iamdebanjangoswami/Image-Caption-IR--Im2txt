@@ -7,7 +7,7 @@ One basic and Simplified Version of the Show and Tell Model for Image Captioning
 ## Run
 
  1. Download the 
-    [pre-trained checkpoints](https://github.com/KranthiGV/Pretrained-Show-and-Tell-model)
+    [pre-trained checkpoints](https://github.com/iamdebanjangoswami/Show-and-Tell-Model--Pretrained.git)
     and place them in `model/train`
     
  2. Fix the code depending on your TF version. (Recommended version 1.2)
