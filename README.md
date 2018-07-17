@@ -2,13 +2,7 @@
 
 ## Important note 
 inspired by the work done by Oriol Vinyals, Alexander Toshev, Samy Bengio, Dumitru Erhan.
-The full version of this model can be found, together with many others, 
-at the TensorFlow models github repo.
-
-This is only an adapted and simplified version of the project for demo purposes, 
-showing just the results at inference time. Using pre-trained models as described later
-on this README.
-
+One basic and Simplified Version of the Show and Tell Model for Image Captioning (Ready reference).
 
 ## Run
 
