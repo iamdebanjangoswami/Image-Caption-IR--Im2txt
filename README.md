@@ -1,18 +1,7 @@
-# Show and Tell: A Neural Image Caption Generator
 
-A TensorFlow implementation of the image-to-text model described in the paper:
-
-"Show and Tell: Lessons learned from the 2015 MSCOCO Image Captioning
-Challenge."
-
-Oriol Vinyals, Alexander Toshev, Samy Bengio, Dumitru Erhan.
-
-*IEEE transactions on pattern analysis and machine intelligence (2016).*
-
-Full text available at: http://arxiv.org/abs/1609.06647
 
 ## Important note 
-
+inspired by the work done by Oriol Vinyals, Alexander Toshev, Samy Bengio, Dumitru Erhan.
 The full version of this model can be found, together with many others, 
 at the TensorFlow models github repo.
 
@@ -68,11 +57,7 @@ and then "decoding" the representation into a natural language description.
 
 The image encoder is a deep convolutional neural network. This type of
 network is widely used for image tasks and is currently state-of-the-art for
-object recognition and detection. Our particular choice of network is the
-[*Inception v3*](http://arxiv.org/abs/1512.00567) image recognition model
-pretrained on the
-[ILSVRC-2012-CLS](http://www.image-net.org/challenges/LSVRC/2012/) image
-classification dataset.
+object recognition and detection.
 
 The decoder is a long short-term memory (LSTM) network. This type of network is
 commonly used for sequence modeling tasks such as language modeling and machine
