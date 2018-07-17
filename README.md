@@ -164,17 +164,3 @@ Here is the image:
 
 ![Surfer](g3doc/COCO_val2014_000000224477.jpg)
 
-
-
-## Fixes:
-
-Depending on the TensorFlow version checkpoint tensor key values might need to be renamed.
-This can be done with `fix_ckpoints.py`
-
-More information on transitioning from TF 1.0 to 1.2 can be found here:
- 
-* [TF version checkpoint fix](https://github.com/KranthiGV/Pretrained-Show-and-Tell-model/issues/9)
-
-
-In addition, if running on Python 3.x `tf.gfile.GFile` needs to read files in `rb` mode.
-(See `im2txt/run_inference.py` line 74)
